@@ -1,7 +1,6 @@
 library helper_extension;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/helper_extension_list.dart';
+export 'src/helper_extension_map.dart';
+export 'src/helper_extension_string.dart';
+export 'src/helper_extension_text.dart';
