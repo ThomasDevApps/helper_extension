@@ -11,29 +11,28 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+# helper_extension
 
-## Features
+![testing workflow](https://github.com/ThomasDevApps/lottery/actions/workflows/flutter_test.yml/badge.svg)
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Packages containing a number of useful extensions not present by default.
 
-## Getting started
+## List
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+- `replaceItem`
+- `replaceItemAtIndex`
+- `swapItems`
+- `swapItemsAtIndex`
+- `separate`
 
-## Usage
+## Map
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+- `replaceValue`
 
-```dart
-const like = 'sample';
-```
+## String
 
-## Additional information
+- `firstLetterToUpperCase`
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+## Widget
+
+- `toFittedBox`

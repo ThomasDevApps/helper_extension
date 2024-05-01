@@ -34,4 +34,17 @@ extension HelperExtensionList<E> on List<E> {
     insert(firstIndex, secondItem);
     insert(secondIndex, firstItem);
   }
+
+  /// Function to add [separator] between each item of the list.
+  List<E> separate(E separator) {
+    final copy = List<E>.from(this);
+    if (copy.length > 1) {
+      for (var item in this) {
+        if (item != last) {
+          copy.insert(copy.indexOf(item) + 1, separator);
+        }
+      }
+    }
+    return copy;
+  }
 }

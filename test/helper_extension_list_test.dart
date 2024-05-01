@@ -25,4 +25,21 @@ void main() {
     list.swapItemsAtIndex(0, 1);
     expect(list, ['b', 'a', 'c']);
   });
+
+  group('Test separate', () {
+    test('Test case when length of list is 0', () {
+      final list = [];
+      expect(list.separate(','), []);
+    });
+
+    test('Test case when length of list is 1', () {
+      final list = ['a'];
+      expect(list.separate(','), ['a']);
+    });
+
+    test('Test case when length of list is 2', () {
+      final list = ['a', 'b'];
+      expect(list.separate(','), ['a', ',', 'b']);
+    });
+  });
 }
