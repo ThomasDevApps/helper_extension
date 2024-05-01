@@ -13,4 +13,6 @@ and the Flutter guide for
 
 # helper_extension
 
+![testing workflow](https://github.com/ThomasDevApps/lottery/actions/workflows/flutter_test.yml/badge.svg)
+
 Packages containing a number of useful extensions not present by default.
