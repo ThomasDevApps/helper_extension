@@ -33,6 +33,10 @@ Packages containing a number of useful extensions not present by default.
 
 - `firstLetterToUpperCase`
 
+## Int
+
+- `toList`
+
 ## Widget
 
 - `toFittedBox`
