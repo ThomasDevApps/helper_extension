@@ -24,3 +24,15 @@ Packages containing a number of useful extensions not present by default.
 - `swapItems`
 - `swapItemsAtIndex`
 - `separate`
+
+## Map
+
+- `replaceValue`
+
+## String
+
+- `firstLetterToUpperCase`
+
+## Widget
+
+- `toFittedBox`
